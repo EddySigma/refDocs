@@ -1,0 +1,22 @@
+// to make a new repo
+git init // initializes git in the current location
+git clone <repo> // instead of <repo> enter the link given in github
+
+// information
+git status // shows you what has been changed and the current branch
+
+// adding data to remote repo or getting data from it (aka push to github)
+git add . // adds all modified and new files (replace . with name of specific file)
+git commit -m "message" // "commits changes" and allows push
+git push // "pushes" your local changes into the repo in github
+git pull // "pulls" the changes made since the last pull
+
+// branch manipulation
+git branch // shows the branches that you have worked on
+git checkout <tag||num of previous push> // lets you move to a point in the timeline of the project. From which you can make changes or make new branches
+  // to make a branch
+  git checkout -b <name of new branch> // makes branch locally
+  git push origin <name of new branch> // push the local branch to github
+
+// need more info go to:
+https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
